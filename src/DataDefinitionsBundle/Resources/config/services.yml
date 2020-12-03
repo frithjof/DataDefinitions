@@ -285,6 +285,10 @@ services:
             - { name: data_definitions.import_provider, type: xml, form-type: Wvision\Bundle\DataDefinitionsBundle\Form\Type\ImportProvider\XmlProviderType }
             - { name: data_definitions.export_provider, type: xml, form-type: Wvision\Bundle\DataDefinitionsBundle\Form\Type\ExportProvider\XmlProviderType }
 
+    Wvision\Bundle\DataDefinitionsBundle\Provider\BmeCatProvider:
+        tags:
+            - { name: data_definitions.import_provider, type: bmecat, form-type: Wvision\Bundle\DataDefinitionsBundle\Form\Type\ImportProvider\BmeCatProviderType }
+
     Wvision\Bundle\DataDefinitionsBundle\Provider\RawProvider:
         tags:
             - { name: data_definitions.import_provider, type: raw, form-type: Wvision\Bundle\DataDefinitionsBundle\Form\Type\ImportProvider\RawProviderType }

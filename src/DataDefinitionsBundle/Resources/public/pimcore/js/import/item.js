@@ -12,7 +12,6 @@
  */
 
 pimcore.registerNS('pimcore.plugin.datadefinitions.import.item');
-
 pimcore.plugin.datadefinitions.import.item = Class.create(pimcore.plugin.datadefinitions.definition.abstractItem, {
     iconCls: 'data_definitions_icon_import_definition',
     url: {

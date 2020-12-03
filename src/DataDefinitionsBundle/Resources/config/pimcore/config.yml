@@ -24,6 +24,7 @@ data_definitions:
             import_provider_external_sql: '/bundles/datadefinitions/pimcore/js/provider/externalSql.js'
             import_provider_json: '/bundles/datadefinitions/pimcore/js/provider/json.js'
             import_provider_xml: '/bundles/datadefinitions/pimcore/js/provider/xml.js'
+            import_provider_bmecat: '/bundles/datadefinitions/pimcore/js/provider/bmecat.js'
             import_provider_raw: '/bundles/datadefinitions/pimcore/js/provider/raw.js'
             export_provider_abstract: '/bundles/datadefinitions/pimcore/js/export_provider/abstractprovider.js'
             export_provider_csv: '/bundles/datadefinitions/pimcore/js/export_provider/csv.js'
